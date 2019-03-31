@@ -53,3 +53,10 @@
 body {
   background-color: black;
 }
+h2 {
+  font-family: "Gothic2";
+  color: #DB0000;
+  margin: 10px;
+  margin-top: 15px;
+  padding: 5px; 
+}
