@@ -39,13 +39,13 @@
 }
 .spellsicons:hover::after {
     content: attr(data-title); /* Выводим текст */
-    position: relative; /* Абсолютное позиционирование */
-    left: 2%; top: 30%; /* Положение подсказки */
+    position: fixed; /* Абсолютное позиционирование */
+    left: 85%; top: 3%; /* Положение подсказки */
     z-index: 1; /* Отображаем подсказку поверх других элементов */
     background: #181818; /* Полупрозрачный цвет фона */
     color: #DB0000;
     font-family: "Gothic2", sans-serif; /* Гарнитура шрифта */
-    font-size: 16px; /* Размер текста подсказки */
+    font-size: 18px; /* Размер текста подсказки */
     padding: 5px 10px; /* Поля */
     border: 3px solid #DB0000; /* Параметры рамки */
    }
@@ -58,5 +58,5 @@ h2 {
   color: #DB0000;
   margin: 10px;
   margin-top: 15px;
-  padding: 5px; 
+  padding: 5px;
 }
